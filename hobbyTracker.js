@@ -44,3 +44,6 @@ console.log("Sessions longer than 30 min:", longSessions(hobbyLog, 30));
 
 // Will show number of relaxed sessions
 console.log("Number of relaxed sessions:", countMood(hobbyLog, "relaxed"));
+
+// New test
+console.log("Creative sessions:", countMood(hobbyLog, "creative"));
