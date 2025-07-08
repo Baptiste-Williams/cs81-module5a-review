@@ -23,6 +23,11 @@ function longSessions(log, minMinutes) {
   return log.filter(entry => entry.minutes > minMinutes);
 }
 
+// Suggestion: I think the function name 'longSessions' could be clearer.
+// Maybe something like 'filterByDuration' would better describe what it does.
+// That way, it could be reused more easily for different types of filtering.
+
+
 // Counts how many sessions had a certain mood
 function countMood(log, moodType) {
   return log.filter(entry => entry.mood === moodType).length;
